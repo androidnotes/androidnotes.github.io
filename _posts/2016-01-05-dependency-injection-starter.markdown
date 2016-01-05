@@ -45,4 +45,4 @@ public class PizzaAssembler {
 }
 {% endhighlight %}
 
-There are still other patterns on how to apply dependency injection left for you to be discovered. As you apply those patterns, your code base will get longer, more complicated, and bloated with boilerplate code. To reap the benefits of DI while avoiding this problem, several dependency injection frameworks were made available by awesome teams and it's up to you to apply them. You can take a look at this Dev Skim of Gregory Kick's talk on Dagger 2 to get started.
+There are still other patterns on how to apply dependency injection left for you to be discovered. As you apply those patterns, your code base will get longer, more complicated, and bloated with boilerplate code. To reap the benefits of DI while avoiding this problem, several dependency injection frameworks were made available by awesome teams and it's up to you to apply them. You can take a look at this [Skim of Gregory Kick's talk on Dagger 2](http://androidnotes.github.io/skims/libraries/2016/01/05/dagger2-new-type-of-dependency-injection.html) to get started.
