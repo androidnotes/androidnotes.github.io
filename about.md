@@ -3,13 +3,9 @@ layout: page
 title: About
 permalink: /about/
 ---
+I want to learn more about Android app development and I love helping others learn as well. Apparently, teaching Android will help me achieve both according to [this](https://en.wikipedia.org/wiki/Docendo_discimus) Latin proverb. Every time I learn something new, I'll try my best to write about it.
 
-Some information about you!
+Twitter: [@aljohnithm](https://twitter.com/aljohnithm).
+Google+: [Al John Quiapon](https://plus.google.com/116274391891793406330)
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+Powered by [Jekyll](https://jekyllrb.com/). Theme by [Joel Glovier](https://github.com/jglovier/jekyll-new)
