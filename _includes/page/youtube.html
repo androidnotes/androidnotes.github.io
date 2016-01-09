@@ -4,6 +4,7 @@ tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 var player;
+var youtubeVideoId;
 
 function jumpTo(seconds) {
   location.hash = "";
@@ -11,6 +12,15 @@ function jumpTo(seconds) {
   player.seekTo(seconds,true);
   player.playVideo();
 }
+
+function onYouTubeIframeAPIReady() {
+  player = new YT.Player('video_container', {
+    height: '390',
+    width: '640',
+    videoId: youtubeVideoId
+  });
+}
+
 </script>
 
 <a name="talk"></a>

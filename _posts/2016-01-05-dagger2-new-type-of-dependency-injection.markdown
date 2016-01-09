@@ -4,16 +4,8 @@ title:  "Dagger 2 - A New Type of Dependency Injection"
 date:   2016-01-05 00:00:00
 categories: [skims, libraries]
 ---
-
-{% include page/youtube.html %}
 <script>
-function onYouTubeIframeAPIReady() {
-  player = new YT.Player('video_container', {
-    height: '390',
-    width: '640',
-    videoId: 'oK_XtfXPkqw'
-  });
-}
+youtubeVideoId = 'oK_XtfXPkqw';
 </script>
 
 [Gregory Kick](https://twitter.com/gk5885) gives us a quick run-down of Java dependency injection solutions and how Dagger 2 overcomes their shortcomings.
