@@ -3,6 +3,7 @@ layout: post
 title:  "Dependency Injection Starter"
 date:   2016-01-16 00:00:00
 categories: [starters, patterns]
+description: "A quick way to wrap your head around dependency injection in Java."
 ---
 A **dependency** is a type where another type is dependent on.
 **Dependency injection**, simply stated, is a way of providing dependencies to types that need them.
