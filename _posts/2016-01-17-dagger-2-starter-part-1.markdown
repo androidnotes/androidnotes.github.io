@@ -52,7 +52,7 @@ It is also best to group modules and provider methods in a logical manner since 
 public class CondimentsModule {  //Module that provides condiments
   @Provides
   public Salt provideSalt() {
-    return new Oven();
+    return new Salt();
   }
 }
 
