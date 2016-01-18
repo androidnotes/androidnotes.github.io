@@ -8,7 +8,7 @@ categories: [starters, libraries]
 [Dagger 2](http://google.github.io/dagger/) is a dependency injection framework for Java. It is Google's improved version of [Dagger](http://square.github.io/dagger/) by Square. If you are not familiar with dependency injection, you need to take a look at this [Dependency Injection Starter](http://androidnotes.github.io/starters/patterns/2016/01/16/dependency-injection-starter.html) then continue with this article.
 
 ## Why use Dagger?
-Usually, classes have dependencies and these dependencies have dependencies as well. Like other DI frameworks, Dagger 2 organizes all your dependencies and the dependencies of your dependencies and links them together, forming a dependency graph, a dependency acyclic graph to be specific, or a DAG. This is hard to manage manually. You will end up having tons of boilerplate code. You have to think about how to provide object instances, how to resolve transitive dependencies, how to inject dependencies to anyone who needs them, how to manage object instances or scopes, etc.. Dagger's simple interface lets you define dependencies for the DAG and helps you draw out dependencies from it, without worrying about the complications of dependency injection itself, hence the name DAGger.
+Usually, classes have dependencies and these dependencies have dependencies as well. Like other DI frameworks, Dagger 2 organizes all your dependencies and the dependencies of your dependencies and links them together, forming a dependency graph, a dependency acyclic graph to be specific, or a DAG. This is hard to manage manually. You will end up having tons of boilerplate code. You have to think about how to provide object instances, how to resolve transitive dependencies, how to inject dependencies to anyone who needs them, how to manage object instances or scopes, etc.. Dagger simply lets you define dependencies for the DAG and helps you draw out dependencies from it without worrying about the complications of dependency injection itself hence the name DAGger.
 
 ## Declaring Dependencies
 Dagger doesn't have superpowers to predict the future and supply dependencies that you have requested from it right off the bat. It has to know what objects to include in the graph and how to construct those objects. There are basically two ways to help Dagger with this:
@@ -43,9 +43,9 @@ public class DoughModule {
 }
 {% endhighlight %}
 
-As mentioned earlier, Dagger is the one who will manage the satisfaction of all dependencies and their respective transitive dependencies for you. You only have to make sure that those transitive dependencies are going to be included in the DAG by creating provider methods that return the transitive dependencies' type or by following step #2.
+As mentioned earlier, Dagger is the one who will manage the satisfaction of all dependencies and their respective transitive dependencies for you. You only have to make sure that those transitive dependencies are going to be included in the DAG by creating provider methods that return the transitive dependencies' types or by following step #2.
 
-It is also best to group modules and provider methods in a logical manner since they are really designed that way. You can define modules to include other modules to maintain reusability and modularity.
+It is also best to group modules and provider methods in a logical manner since they are really designed to be like that. You can define modules to include other modules to maintain reusability and modularity.
 
 {% highlight java %}
 @Module
@@ -74,7 +74,7 @@ public class DoughModule {
   }
 
   @Provides
-  public SaltedDough provideCrust(KneadedDough kneadedDough, Salt salt){ // new SaltedDough provider method
+  public SaltedDough provideSaltedDough(KneadedDough kneadedDough, Salt salt){ // new SaltedDough provider method
     return new SaltedDought(kneadedDough, salt);
   }
 }
