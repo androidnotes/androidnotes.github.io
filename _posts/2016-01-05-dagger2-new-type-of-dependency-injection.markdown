@@ -3,6 +3,7 @@ layout: youtubepost
 title:  "Dagger 2 - A New Type of Dependency Injection"
 date:   2016-01-05 00:00:00
 categories: [skims, libraries]
+description: "Greg Kick gives a quick run-down of Java dependency injection solutions and how Dagger 2 overcomes their shortcomings."
 ---
 <script>
 youtubeVideoId = 'oK_XtfXPkqw';

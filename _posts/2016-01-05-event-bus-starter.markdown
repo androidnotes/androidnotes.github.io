@@ -3,6 +3,7 @@ layout: post
 title:  "Event Bus Starter"
 date:   2016-01-05 00:00:00
 categories: [starters, patterns]
+description: "Learn about the basics of the popular event bus pattern!"
 ---
 An event bus is basically an implementation of the publish-subscribe pattern.
 

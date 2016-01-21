@@ -3,6 +3,7 @@ layout: post
 title:  "UX Design for Mobile Developers"
 date:   2016-01-05 00:00:00
 categories: [skims, design]
+description: "Mobile developers ultimately care for the users. If we want to build apps that cater to users' needs, then it makes sense to design our apps for them."
 ---
 Mobile developers ultimately care for the users. If we want to build apps that cater to users' needs, then it makes sense to design our apps for them. [UX Design for Mobile Developers](https://www.udacity.com/course/ux-design-for-mobile-developers--ud849) by Google at Udacity is a course targeted to us developers to help us build our next 5-star app.
 
