@@ -1,7 +1,7 @@
 # Site settings
 title: Android Notes
 description: >
-  Learning Android development by teaching others
+  Learning Android development by teaching
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://androidnotes.github.io" # the base hostname & protocol for your site
