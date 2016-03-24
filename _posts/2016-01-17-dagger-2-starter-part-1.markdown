@@ -7,6 +7,7 @@ description: "Dagger 2 is a dependency injection framework for Java. Learn about
 ---
 
 ## Dagger 2 Starter Series
+
 [Part 0 - Dependency Injection Starter](http://androidnotes.github.io/starters/patterns/2016/01/16/dependency-injection-starter.html)   
 Part 1 - Declaring Dependencies   
 [Part 2 - Requesting Dependencies](http://androidnotes.github.io/starters/libraries/2016/01/23/dagger-2-starter-part-2.html)   

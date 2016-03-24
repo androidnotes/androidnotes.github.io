@@ -7,6 +7,7 @@ description: "In the previous article, we learned about what Dagger 2 is and the
 ---
 
 ## Dagger 2 Starter Series
+
 [Part 0 - Dependency Injection Starter](http://androidnotes.github.io/starters/patterns/2016/01/16/dependency-injection-starter.html)   
 [Part 1 - Declaring Dependencies](http://localhost:4000/starters/libraries/2016/01/17/dagger-2-starter-part-1.html)   
 Part 2 - Requesting Dependencies   
