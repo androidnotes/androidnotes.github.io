@@ -1,10 +1,18 @@
 ---
 layout: post
-title:  "Dagger 2 Starter - Part 2"
+title:  "Dagger 2 Starter - Part 2 - Requesting Dependencies"
 date:   2016-01-23 00:00:00
 categories: [starters, libraries]
 description: "In the previous article, we learned about what Dagger 2 is and the two ways to provide dependencies to the object graph. This time, we will tackle the ways on how to request for dependencies (a.k.a. injection) from the object graph."
 ---
+
+##Dagger 2 Starter Series   
+[Part 0 - Dependency Injection Starter](http://androidnotes.github.io/starters/patterns/2016/01/16/dependency-injection-starter.html)   
+[Part 1 - Declaring Dependencies](http://localhost:4000/starters/libraries/2016/01/17/dagger-2-starter-part-1.html)   
+Part 2 - Requesting Dependencies   
+Part 3 - Scoping   
+
+_____________________________________________
 
 In the previous article, we learned about what Dagger 2 is and the two ways to provide dependencies to the object graph. This time, we will tackle the ways on how to request for dependencies (a.k.a. injection) from the object graph.
 
@@ -16,10 +24,12 @@ Adding `@Inject` to the constructor of a class will inject and instantiate all o
 
 {% highlight java %}
 public class CheeseGrater {
+
   @Inject
   public CheeseGrater(Cheese cheese) { // The cheese constructor parameter will get injected
     // whatever you do to initialize a cheese grater
   }
+  
 }
 {% endhighlight %}
 
