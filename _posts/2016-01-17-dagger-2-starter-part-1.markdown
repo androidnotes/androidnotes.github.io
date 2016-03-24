@@ -132,4 +132,4 @@ So far, you already know how to declare types to be included in the DAG generati
 
 ### References
 Dagger 2 Official Documentation - [http://google.github.io/dagger/](http://google.github.io/dagger/)
-   Fragmented Podcast Episode 21 : Diving Deep with Dagger [http://fragmentedpodcast.com/episodes/021/](http://fragmentedpodcast.com/episodes/021/)
+Fragmented Podcast Episode 21 : Diving Deep with Dagger [http://fragmentedpodcast.com/episodes/021/](http://fragmentedpodcast.com/episodes/021/)

@@ -190,7 +190,7 @@ public class Pizza {
 
 {% endhighlight %}
 
-We already know how to provide dependencies to the object graph and have Dagger inject dependencies that we need. With this knowledge, we can already build a basic app using Dagger as a dependency injection library. In the next part of the series, we are going to learn how to setup our project with the Dagger library and also create a practical Android example to demonstrate what we've learned so far.
+We already know how to provide dependencies to the object graph and have Dagger inject dependencies that we need. With this knowledge, we can already build a basic app using Dagger as a dependency injection library. However, the way we manage dependencies is not pretty secured. In the next part of the series, we are going to solve this problem by introducing scoping.
 
 ### References
 Dagger 2 JavaDoc - [http://google.github.io/dagger/api/2.0/](http://google.github.io/dagger/api/2.0/)
