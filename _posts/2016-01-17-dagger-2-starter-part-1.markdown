@@ -11,7 +11,7 @@ description: "Dagger 2 is a dependency injection framework for Java. Learn about
 [Part 0 - Dependency Injection Starter](http://androidnotes.github.io/starters/patterns/2016/01/16/dependency-injection-starter.html)   
 Part 1 - Declaring Dependencies   
 [Part 2 - Requesting Dependencies](http://androidnotes.github.io/starters/libraries/2016/01/23/dagger-2-starter-part-2.html)   
-Part 3 - Scoping   
+[Part 3 - Scoping](http://androidnotes.github.io/starters/libraries/2016/03/20/dagger-2-starter-part-3.html)
 
 _____________________________________________
 
@@ -23,7 +23,7 @@ Usually, classes have dependencies and these dependencies have dependencies as w
 ## Declaring Dependencies
 Dagger doesn't have superpowers to predict the future and supply dependencies that you have requested from it right off the bat. It has to know what objects to include in the graph and how to construct those objects. There are basically two ways to help Dagger with this:
 
-###1. By Defining Modules and Provider methods
+### 1. By Defining Modules and Provider methods
 You simply have to create a *module* - a plain Java class with an `@Module` annotation. Inside it, you have to write methods annotated with `@Provides` and return the types that you want to be added to the DAG.
 
 {% highlight java %}
@@ -115,7 +115,7 @@ public class DoughModule {
 }
 {% endhighlight %}
 
-###2. By Annotating Class Constructors with `@Inject`
+### 2. By Annotating Class Constructors with `@Inject`
 The second way to satisfy dependencies is by using the `@Inject` annotation. It has another purpose, its main purpose actually, which you will learn about later. For now, you just have to know that when a class constructor is annotated with `@Inject`, its type is automatically added to the DAG. There is therefore, no need to write a provider method in a module that returns the type.
 
 {% highlight java %}

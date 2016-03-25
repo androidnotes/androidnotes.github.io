@@ -15,8 +15,6 @@ Part 3 - Scoping
 
 _____________________________________________
 
-#Scoping
-
 Remember variable scoping? It is the mechanism/rule that controls access to variables.
 Let's say we have declared a variable inside a method. That variable can only be accessed in that method. Once control exited the method, the variable will be gone and inaccessible. This very behavior is desirable for dependencies as well and Dagger 2 supports it.
 

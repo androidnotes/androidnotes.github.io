@@ -5,6 +5,16 @@ date:   2016-01-16 00:00:00
 categories: [starters, patterns]
 description: "A quick way to wrap your head around dependency injection in Java."
 ---
+
+## Dagger 2 Starter Series
+
+Part 0 - Dependency Injection Starter   
+[Part 1 - Declaring Dependencies](http://androidnotes.github.io/starters/libraries/2016/01/17/dagger-2-starter-part-1.html)   
+[Part 2 - Requesting Dependencies](http://androidnotes.github.io/starters/libraries/2016/01/23/dagger-2-starter-part-2.html)   
+[Part 3 - Scoping](http://androidnotes.github.io/starters/libraries/2016/03/20/dagger-2-starter-part-3.html)
+
+_____________________________________________
+
 A **dependency** is a type where another type is dependent on.
 **Dependency injection**, simply stated, is a way of providing dependencies to types that need them.
 
