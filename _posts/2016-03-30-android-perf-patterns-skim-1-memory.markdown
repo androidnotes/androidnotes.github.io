@@ -3,7 +3,7 @@ layout: post
 title:  "Android Perf Patterns - Skim 1 - Memory"
 date:   2016-03-30 00:00:00
 categories: [starters, skims, tools]
-description: ""
+description: "In the first installment of several skims, I'll summarize the content of the first five episodes of season 1 which is all about memory."
 ---
 
 The [Android Developers Youtube Channel](https://www.youtube.com/user/androiddevelopers) is putting up so much valuable information regarding Android development. One of their best series is the [Android Performance Patterns Series](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc9CBxr3BVjPTPoDPLdPIFCE) which focuses on helping developers write faster and more performant Android applications. At the time of writing, it already has 5 hours of jam-packed content in 73 videos.
