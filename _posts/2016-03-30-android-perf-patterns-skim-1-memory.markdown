@@ -87,7 +87,7 @@ When an object is expected to be unused but there is at least one reference to i
 
   1. Avoid allocation in inner loops.
   2. Avoid onDraw allocations.
-  3. Consider using an object pool. The pool allocates a group of objects and allows them to be grabbed and returned once usage is done. Objects are pulled from the pool instead of the memory heap.
+  3. Consider using an object pool. The pool allocates a group of objects and allows them to be grabbed and returned once usage is done. Objects are pulled from the pool instead of allocating them again on the memory heap.
 
 ## References
 Android Performance Patterns Youtube Channel - [https://www.youtube.com/playlist?list=PLWz5rJ2EKKc9CBxr3BVjPTPoDPLdPIFCE](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc9CBxr3BVjPTPoDPLdPIFCE)
