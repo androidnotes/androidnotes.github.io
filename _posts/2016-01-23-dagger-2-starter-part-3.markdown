@@ -97,7 +97,7 @@ Dagger may stop the compilation and warn you if it finds any one of these scenar
 
 After Dagger verifies all scope declarations in components and providers, it is up to the developer to manage the dependencies' lifecycles. The life of the instance of all dependencies included in a component depends on the life of the component instance itself. For instance, in Android, a component that has an `@ActivityScope` must live only as long as the activity lives. The logical thing to do is to build the component in `onCreate` and remove any reference to it in `onDestroy`.
 
-## TLDR;
+## TL;DR
 
 - An unscoped dependency will always return a new instance.
 - A scoped dependency can either be annotated with `@Singleton` which means there's only one instance of it throughout the life of the application or a custom annotation which has to be declared manually.
