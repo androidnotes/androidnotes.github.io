@@ -57,7 +57,7 @@ When an object is expected to be unused but there is at least one reference to i
 
 ### To check for GC event issues:
 
-  - Use the Memory Monitor Tool which shows how your app is using memory over time.
+  - Use the [Memory Monitor Tool](http://developer.android.com/tools/performance/memory-monitor/index.html) which shows how your app is using memory over time.
 
   - How to Launch: Android Studio > Tools > Android > Memory Monitor
 
@@ -75,10 +75,10 @@ When an object is expected to be unused but there is at least one reference to i
   Assume we have an activity that has bitmaps that have to be GCed after the activity is destroyed:
 
   1. Create a blank activity with a low or known memory allocation and create a way for the bitmap activity to transition into it.
-  2. Use the **Heap tool** to get a snapshot of how memory normally looks like in the activity that has bitmaps.
+  2. Use the [Heap Viewer](http://developer.android.com/tools/performance/heap-viewer/index.html) to get a snapshot of how memory normally looks like in the activity that has bitmaps.
   3. Transition into the blank activity and click "Cause GC" to force garbage collection which should remove allocations from the bitmap activity.
   4. Once you're in the blank activity, do another heap dump and inspect if there are allocations that shouldn't be there.
-  5. If there are suspects, switch to the **Allocation Tracker** tool to know what allocations are occurring.
+  5. If there are suspects, switch to the [Allocation Tracker](http://developer.android.com/tools/performance/allocation-tracker/index.html) tool to know what allocations are occurring.
   6. To use allocation tracker, Press Start Allocation Tracking, open the bitmap activity, transition to the blank activity, press "Cause GC", then press Stop Allocation Tracking.
   7. After a while, the tool will display a list of all objects that were created, the order in which they were created and where they were created.
   8. You can now track down the allocations on your code and figure out why they are not being freed.

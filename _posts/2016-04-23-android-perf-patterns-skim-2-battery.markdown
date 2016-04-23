@@ -15,15 +15,15 @@ A performant app does not only improve the user's perceived speed of the applica
 
 ## How to be friends with the battery
 
-1. Use the PowerManager.WakeLock API carefully. Sometimes, wake lock is not released due to errors and other edge cases. It is recommended to use the `acquire(long timeout)` method and provide a timeout value. The wake lock is released when the time is up.
+1. Use the [PowerManager.WakeLock API](http://developer.android.com/reference/android/os/PowerManager.WakeLock.html) carefully. Sometimes, wake lock is not released due to errors and other edge cases. It is recommended to use the [acquire(long timeout)](http://developer.android.com/reference/android/os/PowerManager.WakeLock.html#acquire(long)) method and provide a timeout value. The wake lock is released when the time is up.
 
-2. Use inexact timers to kick off events. The `AlarmManager` has support for setting future events which can be delayed to be group with other apps' events.
+2. Use inexact timers to kick off events. The [AlarmManager](http://developer.android.com/reference/android/app/AlarmManager.html) has support for setting future events which can be delayed to be group with other apps' events.
 
-3. Use the JobScheduler API to batch and defer jobs. It is intelligent enough to wait for better conditions (e.g. when phone is charging, when on WiFi, when device is already awake) before executing the logic for the jobs.
+3. Use the [JobScheduler API](http://developer.android.com/reference/android/app/job/JobScheduler.html) to batch and defer jobs. It is intelligent enough to wait for better conditions (e.g. when phone is charging, when on WiFi, when device is already awake) before executing the logic for the jobs.
 
 ## How to check for battery issues
 
-1. Battery Details screen in app settings
+1. **Battery Details screen in app settings**
   One can check on this screen how much time an app keeps a phone awake. Bear in mind that the Uninstall button is also located on this screen so you better not screw up the battery.
 2. [Battery Historian](http://developer.android.com/tools/performance/batterystats-battery-historian/index.html)
   A developer tool that shows wake lock logic order, how often wakes are kicked off, who initialized them and how long they lasted.
