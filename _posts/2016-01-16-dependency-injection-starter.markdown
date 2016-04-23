@@ -71,6 +71,7 @@ Dependencies, most likely, have dependencies of their own and those dependencies
 ## The JSR 330
 In an effort to standardize dependency injection in Java, a team of experts came up with a Java Specification Request. It standardized the way DI is done in Java by defining a set of annotations and a user-friendly API for injection. All of these can be found under the `javax.inject` package. JSR 330 is being followed by well-known DI frameworks such as Spring, Guice, Dagger and Dagger 2. Learning about this specification makes understanding just any DI framework in Java easier.
 
+
 ### References
-JSR 330: Dependency Injection for Java -  [https://jcp.org/en/jsr/detail?id=330](https://jcp.org/en/jsr/detail?id=330)
-Dependency Injection Wiki - [https://en.wikipedia.org/wiki/Dependency_injection](https://en.wikipedia.org/wiki/Dependency_injection)
+- [JSR 330: Dependency Injection for Java](https://jcp.org/en/jsr/detail?id=330)
+- [Dependency Injection Wiki](https://en.wikipedia.org/wiki/Dependency_injection)

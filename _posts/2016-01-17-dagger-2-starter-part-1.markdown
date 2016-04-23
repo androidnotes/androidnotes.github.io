@@ -131,5 +131,5 @@ public class TomatoSauce {
 So far, you already know how to declare types to be included in the DAG generation. Our efforts will be useless if we are not going to use those! In the next part, we will learn about how to tell Dagger to get dependencies from the DAG a.k.a the injection part in dependency injection.
 
 ### References
-Dagger 2 Official Documentation - [http://google.github.io/dagger/](http://google.github.io/dagger/)
-Fragmented Podcast Episode 21 : Diving Deep with Dagger [http://fragmentedpodcast.com/episodes/021/](http://fragmentedpodcast.com/episodes/021/)
+- [Dagger 2 Official Documentation](http://google.github.io/dagger/)
+- [Fragmented Podcast Episode 21 : Diving Deep with Dagger](http://fragmentedpodcast.com/episodes/021/)

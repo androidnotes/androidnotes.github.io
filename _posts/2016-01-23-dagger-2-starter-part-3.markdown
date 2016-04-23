@@ -137,5 +137,5 @@ dependencies {
 {% endhighlight %}
 
 ### References
-Dagger 2 JavaDoc - [http://google.github.io/dagger/api/2.0/](http://google.github.io/dagger/api/2.0/)   
-Setting Up Dagger 2 for Android Studio - [http://stackoverflow.com/questions/28661693/dagger2-dependency-gradle](http://stackoverflow.com/questions/28661693/dagger2-dependency-gradle)   
+[Dagger 2 JavaDoc](http://google.github.io/dagger/api/2.0/)   
+[Setting Up Dagger 2 for Android Studio](http://stackoverflow.com/questions/28661693/dagger2-dependency-gradle)   

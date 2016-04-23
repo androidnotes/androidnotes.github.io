@@ -28,5 +28,5 @@ A performant app does not only improve the user's perceived speed of the applica
 2. [Battery Historian](http://developer.android.com/tools/performance/batterystats-battery-historian/index.html)
   A developer tool that shows wake lock logic order, how often wakes are kicked off, who initialized them and how long they lasted.
 
-## References
-Android Performance Patterns Youtube Channel - [https://www.youtube.com/playlist?list=PLWz5rJ2EKKc9CBxr3BVjPTPoDPLdPIFCE](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc9CBxr3BVjPTPoDPLdPIFCE)
+### References
+  - [Android Performance Patterns Youtube Channel](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc9CBxr3BVjPTPoDPLdPIFCE)
